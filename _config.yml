@@ -3,7 +3,7 @@ title: Symphony
 email: salonibhartia1997@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Let's Eat!!.
-baseurl: "/emping" # the subpath of your site, e.g. /blog
+baseurl: "/emping/blog" # the subpath of your site, e.g. /blog
 url: "https://sbhartia.com" # the base hostname & protocol for your site
 twitter_username: saloni_bhartia
 github_username:  saloni1996

@@ -1,20 +1,20 @@
-var CACHE_NAME = '20170610095604';
+var CACHE_NAME = '20170610104148';
 
 self.addEventListener('install',event => {
   event.waitUntil(caches.open(CACHE_NAME)
   .then(cache => cache.addAll([
-    '/emping/404.html',
-    '/emping/about/',
+    '/emping/_posts/404.html',
+    '/emping/_posts/about/',
     
-    '/emping/blog/',
-    '/emping/',
-    
-    
+    '/emping/_posts/blog/',
+    '/emping/_posts/',
     
     
     
     
-    '/emping/blog/Da-Open-Code','/emping/blog/welcome-to-jekyll',
+    
+    
+    '/emping/_posts/blog/Da-Open-Code','/emping/_posts/blog/welcome-to-jekyll',
   ]))
 );
 });
@@ -36,7 +36,7 @@ self.addEventListener('fetch',event => {
             cache.put(event.request, responseToCache)
           );
           return response;
-        }).catch(() => caches.match('/emping/'))
+        }).catch(() => caches.match('/emping/_posts/'))
     }));
 });
 
