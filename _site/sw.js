@@ -1,10 +1,9 @@
-var CACHE_NAME = '20170610131553';
+var CACHE_NAME = '20170610132537';
 
 self.addEventListener('install',event => {
   event.waitUntil(caches.open(CACHE_NAME)
   .then(cache => cache.addAll([
     '/Symphony/404.html',
-    '/Symphony/about/',
     
     '/Symphony/blog/',
     '/Symphony/',
