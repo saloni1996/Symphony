@@ -1,11 +1,9 @@
 ﻿# Site settings
 title: Symphony
-email: salonibhartia1996@gmail.com
+email: salonibhartia1997@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Let's Eat!!.
-
-baseurl: "/emping/_posts" # the subpath of your site, e.g. /blog
-
+baseurl: "/emping" # the subpath of your site, e.g. /blog
 url: "https://sbhartia.com" # the base hostname & protocol for your site
 twitter_username: saloni_bhartia
 github_username:  saloni1996
