@@ -16,9 +16,10 @@
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}
-        <a href="{{ site.baseurl | append: '/blog/'}}">Blog</a>
+        <a href="{{site.url| append: '/'}}">About&emsp;</a>
+        <a href="{{ site.baseurl | append: '/blog/'}}">      Blog</a>
       </div>
-      <a href="{{site.url}}">About</a>
+
     </nav>{% if include.avatar %}
     <div class="wrapper">
         <div class="author">
