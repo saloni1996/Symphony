@@ -1,0 +1,47 @@
+﻿# Site settings
+title: Symphony
+email: salonibhartia1997@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Let's Eat!!.
+baseurl: "/emping" # the subpath of your site, e.g. /blog
+url: "https://sbhartia.com" # the base hostname & protocol for your site
+twitter_username: saloni_bhartia
+github_username:  saloni1996
+GoogleAnalytics: UA-71848049-1
+
+twitter:
+  username: saloni_bhartia
+facebook:
+  app_id: 600141373527242
+  publisher: 198851760537919
+
+sass:
+    style: compressed
+
+# Build settings
+markdown: kramdown
+kramdown:
+  parse_block_html: true
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jemoji
+
+defaults:
+    - {scope: {type: posts}, values: {layout: post, permalink: '/blog/:title'}}
+
+include:
+  - _pages
+
+exclude:
+  - CNAME
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+paginate: 12
+paginate_path: '/blog/:num'
