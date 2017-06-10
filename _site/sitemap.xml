@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/emping/_posts/blog/welcome-to-jekyll</loc>
-<lastmod>2016-09-02T09:29:21+05:30</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/emping/_posts/blog/Da-Open-Code</loc>
+<loc>http://localhost:4000/Symphony/blog/Da-Open-Code</loc>
 <lastmod>2017-04-04T18:47:00+05:30</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/emping/_posts/404.html</loc>
+<loc>http://localhost:4000/Symphony/404.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/emping/_posts/about/</loc>
+<loc>http://localhost:4000/Symphony/about/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/emping/_posts/blog/</loc>
+<loc>http://localhost:4000/Symphony/blog/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/emping/_posts/</loc>
+<loc>http://localhost:4000/Symphony/</loc>
 </url>
 </urlset>

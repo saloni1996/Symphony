@@ -1,20 +1,20 @@
-var CACHE_NAME = '20170610104148';
+var CACHE_NAME = '20170610131553';
 
 self.addEventListener('install',event => {
   event.waitUntil(caches.open(CACHE_NAME)
   .then(cache => cache.addAll([
-    '/emping/_posts/404.html',
-    '/emping/_posts/about/',
+    '/Symphony/404.html',
+    '/Symphony/about/',
     
-    '/emping/_posts/blog/',
-    '/emping/_posts/',
-    
-    
+    '/Symphony/blog/',
+    '/Symphony/',
     
     
     
     
-    '/emping/_posts/blog/Da-Open-Code','/emping/_posts/blog/welcome-to-jekyll',
+    
+    
+    '/Symphony/blog/Da-Open-Code',
   ]))
 );
 });
@@ -36,7 +36,7 @@ self.addEventListener('fetch',event => {
             cache.put(event.request, responseToCache)
           );
           return response;
-        }).catch(() => caches.match('/emping/_posts/'))
+        }).catch(() => caches.match('/Symphony/'))
     }));
 });
 

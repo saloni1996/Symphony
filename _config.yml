@@ -2,12 +2,13 @@
 title: Symphony
 email: salonibhartia1997@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Let's Eat!!.
+  “Welcome to the world of Symphony”.
 baseurl: "/Symphony" # the subpath of your site, e.g. /blog
 url: "https://sbhartia.com" # the base hostname & protocol for your site
+
 twitter_username: saloni_bhartia
 github_username:  saloni1996
-GoogleAnalytics: UA-71848049-1
+
 
 twitter:
   username: saloni_bhartia
