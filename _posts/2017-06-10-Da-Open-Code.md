@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Da Open Code"
-date:   2017-04-04 18:47:00 GMT+5:30
+date:   2017-06-10 18:47:00 GMT+5:30
 categories: jekyll update
 ---
 HOLA READERS!
